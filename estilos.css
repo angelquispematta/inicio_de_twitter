@@ -1,0 +1,275 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: 25% 45% 30%;
+    grid-template-rows: auto;
+    width: 90;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 45px;
+    background-color: white;
+}
+
+.logo:hover{
+    background-color: #e7f5fd;
+}
+
+.inicio_centro{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.publicar{
+    border: #9b9b9b solid 1px;
+    padding: 10px;
+}
+
+.espacio{
+    border: #9b9b9b solid 1px;
+}
+
+.comentarios{
+    display: flex;
+    align-items: flex-end;
+    color: gray;
+    font-weight: bold;
+}
+
+input{
+    width: 90%;
+    height: 20px;
+    margin-top: 3px;
+    border-radius: 30px;
+    font-size: 15px;
+    background-color: #eff3f4;
+    border: none;
+    padding: 15px;
+    margin-left: 10%;
+}
+
+.barra_lateral_izquierda{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 30px;
+    position: sticky;
+    top: 0%;
+}
+
+.goku_perfil img{
+    width: 60px;
+    height: 60px;
+    border-radius: 45px;
+}
+
+.pasar{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color: gray;
+}
+
+.vegeta img{
+    width: 60px;
+    height: 60px;
+    border-radius: 45px;
+}
+
+.vegeta_perfil{
+    display: grid;
+    grid-template-columns: 60px 500px;
+    grid-template-rows: 30px 30px;
+}
+
+span{
+    color: gray;
+    font-size: 17px;
+}
+
+.vegeta_sayajin{
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+}
+
+.subir{
+    margin-left: 75%;
+    background-color: #81BBF5;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+/*Barra lateral izquierda*/
+
+.inicio_izquierda{
+    display: flex;
+    align-items: flex-end;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 15px;
+    width: 50%;
+}
+
+.inicio_izquierda:hover{
+    background-color: #C0C0C0;
+}
+
+.numeral{
+    display: flex;
+    align-items: flex-end;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 15px;
+    width: 50%;
+}
+
+.numeral:hover{
+    background-color: #C0C0C0;
+}
+
+.notificacion{
+    display: flex;
+    align-items: flex-end;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 15px;
+    width: 50%;
+}
+
+.notificacion:hover{
+    background-color: #C0C0C0;
+}
+
+.mensaje{
+    display: flex;
+    align-items: flex-end;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 15px;
+    width: 50%;
+}
+
+.mensaje:hover{
+    background-color: #C0C0C0;
+}
+
+.guardado{
+    display: flex;
+    align-items: flex-end;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 15px;
+    width: 50%;
+}
+
+.guardado:hover{
+    background-color: #C0C0C0;
+}
+
+.lista{
+    display: flex;
+    align-items: flex-end;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 15px;
+    width: 50%;
+}
+
+.lista:hover{
+    background-color: #C0C0C0;
+}
+
+.perfil{
+    display: flex;
+    align-items: flex-end;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 15px;
+    width: 50%;
+}
+
+.perfil:hover{
+    background-color: #C0C0C0;
+}
+
+.opcion{
+    display: flex;
+    align-items: flex-end;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 15px;
+    width: 60%;
+}
+
+.opcion:hover{
+    background-color: #C0C0C0;
+}
+
+.twittear{
+    background-color: #03a9f4;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+    width: 80%;
+}
+
+.twittear:hover{
+    background-color: #2E88F5;
+}
+
+.perfil_inicial{
+    display: grid;
+    grid-template-columns: 60px 150px;
+    grid-template-rows: 30px 30px;
+}
+
+.perfil_inicial img{
+    width: 60px;
+    height: 60px;
+    border-radius: 45px;
+}
+
+.DBZ{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.dbz{
+    color: #9b9b9b;
+    font-weight: bold;
+}
+
+/*Barra lateral derecha*/
+
+.barra_lateral_derecha{
+    width: 90%;
+    background-color: #eff3f4;
+    margin-top: 30px;
+    padding: 15px;
+    margin-left: 10%;
+    border-radius: 20px;
+}
+
+.tendencia{
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 30px;
+}
